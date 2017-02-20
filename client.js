@@ -10,6 +10,7 @@ $(document).ready(function() {
     colorCounter($thisColor);
 
   });
+});
 
   function colorCounter(color) {
     $('.container').append('<div class="color-cube ' + color + '"></div>');
@@ -28,6 +29,3 @@ $(document).ready(function() {
     }
 
   }
-
-
-});
